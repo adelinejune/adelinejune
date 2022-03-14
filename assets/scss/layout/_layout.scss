@@ -1,0 +1,24 @@
+.container {
+  max-width: 968px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.main {
+  overflow: hidden;
+}
+
+.section {
+  padding: 4rem 0 1rem;
+
+  &__title {
+    font-size: $h2-font-size;
+    margin-bottom: 4rem;
+    text-align: center;
+    color: $primary-color;
+  }
+}

@@ -1,0 +1,68 @@
+.footer {
+  background-color: $primary-color;
+  color: black;
+  text-align: center;
+
+  &__container {
+    padding: 2rem 0;
+  }
+
+  &__logo {
+    width: 110px;
+  }
+
+  &__list,
+  &__social {
+    @include flexCenter;
+    column-gap: 1.3rem;
+    margin: 1.2rem;
+  }
+
+  &__link,
+  &__icon {
+    color: black;
+  }
+
+  &__icon {
+    font-size: 1.7rem;
+    padding: 0.25rem;
+    transition: 0.4s;
+  }
+
+  &__copy {
+    display: block;
+    margin-top: 4.5rem;
+    font-size: $small-font-size;
+  }
+
+  //   Link Hover
+  &__link {
+    display: inline-block;
+    padding-bottom: 3.5px;
+    position: relative;
+  }
+
+  &__link:after {
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1.5px;
+    left: 0%;
+    position: absolute;
+    background: black;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  &__link:hover:after {
+    width: 100%;
+  }
+
+  //  Icon Hover {
+  &__icon:hover {
+    cursor: pointer;
+    background-color: $background-color;
+    color: $primary-color;
+    border-radius: 0.25rem;
+  }
+}

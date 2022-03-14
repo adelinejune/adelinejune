@@ -1,0 +1,33 @@
+%btn {
+  padding: 0.5rem 1rem;
+  background-color: $primary-color;
+  color: $container-color;
+  font-weight: $font-semi-bold;
+  border: 2px solid transparent;
+  letter-spacing: 1px;
+  border-radius: 0.5rem;
+  transition: 0.4s;
+  font-size: $small-font-size;
+}
+
+.button {
+  @extend %btn;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #d1c2f3;
+}
+
+.ghost--button {
+  @extend %btn;
+  background-color: transparent;
+  color: $primary-color;
+  border: 2px solid $primary-color;
+}
+
+.ghost--button:hover {
+  cursor: pointer;
+  background-color: $primary-color;
+  color: $container-color;
+}

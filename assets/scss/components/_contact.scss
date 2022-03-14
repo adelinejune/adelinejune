@@ -1,0 +1,109 @@
+.contact {
+  padding-bottom: 3rem;
+  &__title {
+    font-size: $biggest-font-size;
+    color: $primary-color;
+    letter-spacing: 0.07em;
+  }
+
+  &__subtitle {
+    font-family: "Playfair Display";
+    font-size: $biggest-font-size + 2.2rem;
+    line-height: 100%;
+    padding: 0rem 0 4rem;
+    letter-spacing: 0.06em;
+  }
+
+  &__form {
+    text-align: right;
+
+    input,
+    textarea {
+      color: $text-color;
+      background-color: transparent;
+      border: transparent;
+      border-bottom: 1px solid white;
+      font-family: "Poppins", sans-serif;
+      width: 100%;
+      text-align: right;
+      padding: 0.5rem;
+      font-size: $normal-font-size;
+    }
+
+    textarea {
+      border: 1px solid white;
+      margin: 1rem 0;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+      color: white;
+      opacity: 0.8;
+      font-weight: 300;
+      letter-spacing: 0.05em;
+    }
+
+    input:focus,
+    textarea:focus {
+      outline: none;
+    }
+
+    button {
+      font-size: $normal-font-size;
+      margin-top: 1rem;
+      padding: 0.75rem 1rem;
+    }
+  }
+
+  // Error message
+  &__status-error {
+    text-align: center;
+    color: rgb(253, 145, 145);
+    animation: status 4s ease forwards;
+    border-radius: 8px;
+    margin-top: 2rem;
+    visibility: hidden;
+  }
+  &__status-success {
+    position: fixed;
+  }
+}
+
+#status {
+  position: relative;
+  text-align: right;
+  bottom: 4.35rem;
+  font-size: $small-font-size;
+}
+
+#status.success {
+  color: rgb(211, 250, 153);
+  animation: status 4s ease forwards;
+}
+
+#status.error {
+  color: rgb(255, 144, 144);
+  animation: status 4s ease forwards;
+}
+.italic {
+  font-style: italic;
+}
+
+label {
+  visibility: hidden;
+}
+
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}

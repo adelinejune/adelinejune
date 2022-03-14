@@ -1,0 +1,48 @@
+.about {
+  &__container {
+    background-color: $container-color;
+    padding: 2rem 1.5rem;
+    row-gap: 4rem;
+    border-radius: 15px;
+  }
+
+  &__content {
+    text-align: center;
+  }
+
+  &__title {
+    font-size: $h3-font-size;
+    text-transform: uppercase;
+    color: $dark-grey;
+    letter-spacing: 7px;
+  }
+
+  &__description {
+    font-weight: 300;
+    margin: 1.5rem auto 2rem auto;
+    max-width: 450px;
+    letter-spacing: 0.1em;
+  }
+
+  &__btns {
+    display: flex;
+    justify-content: center;
+    column-gap: 5vw;
+  }
+
+  &__icon-groups {
+    margin-top: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1rem;
+    justify-items: center;
+
+    img {
+      width: 70px;
+    }
+  }
+}
+
+.disabled {
+  cursor: not-allowed;
+}

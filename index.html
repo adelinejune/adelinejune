@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adeline June | Front-end Developer, Web Designer</title>
+    <link rel="icon" href="./assets/img/footer-logo.svg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&family=Playfair+Display:ital,wght@0,700;1,700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet"> 
+
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Swiper CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">
+                <img class="nav__logo-img" src="./assets/img/june-logo.svg" alt="">
+            </a>
+
+            <div class="nav__menu" id="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Get in Touch</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav__close">
+                    <i class='bx bx-x' ></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav__toggle">
+                <i class='bx bx-grid-alt' ></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- main -->
+    <main class="main">
+
+        <!-- Home Section -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <img src="./assets/img/home-art.png" alt="" class="home__img">
+
+                <div class="home__data">
+                    <h1 class="home__title">Hey there, I’m 
+                        Adeline, nice to meet you. Please take a look around !
+                    </h1>
+                    <a href="#about" class="home__scroll">
+                        <p>Scroll Down</p>
+                        <i class='bx bx-mouse-alt home__scroll-icon'></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+
+                <div class="about__content about__content-intro">
+                    <h3 class="about__title">introduction</h3>
+                    <p class="about__description">I'm a Front-end Developer and Web Designer. I design and build beautiful websites for business and personal use. If you need a modern and powerful website, shoot me an email.</p>
+                    <div class="about__btns">
+                        <a class="button" href="#contact">Contact Me</a>
+                        <span class="disabled"><a href="" class="ghost--button">Download CV</a></span>
+                    </div>
+                </div>
+
+                <div class="about__content about__content-tech">
+                    <h3 class="about__title">tools & technology</h3>
+                    <div class="about__icon-groups grid">
+                        <img src="./assets/img/icon-html.svg" alt="HTML icon">
+                        <img src="./assets/img/icon-css.svg" alt="CSS icon">
+                        <img src="./assets/img/icon-javascript.svg" alt="JavaScript icon">
+                        <img src="./assets/img/icon-react.svg" alt="React Native icon">
+                        <img src="./assets/img/icon-github.svg" alt="GitHub icon">
+                        <img src="./assets/img/icon-sass.svg" alt="SASS icon">
+                        <img src="./assets/img/icon-figma.svg" alt="Figma icon">
+                        <img src="./assets/img/icon-webflow.svg" alt="Webflow icon">
+                        <img src="./assets/img/icon-vscode.svg" alt="VScode icon">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="services section" id="services">
+            <h2 class="section__title">Services</h2>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <h3 class="services__title">Front-End <br> Developer</h3>
+
+                    <span class="services__button">
+                        See more <i class='bx bx-right-arrow-alt services__icon' ></i>
+                    </span> 
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close' ></i>
+
+                            <h3 class="services__modal-title">Front-End Developer</h3>
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon' ></i>
+                                    <p class="service__modal-info">
+                                        Transform your ideas into robust application
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon' ></i>
+                                    <p class="service__modal-info">
+                                        Timely Delivery
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon' ></i>
+                                    <p class="service__modal-info">
+                                        Technical Support
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon' ></i>
+                                    <p class="service__modal-info">
+                                        Smooth, fast and intuitive Design
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon' ></i>
+                                    <p class="service__modal-info">
+                                        Responsive Website
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <h3 class="services__title">UI/UX <br> Designer</h3>
+
+                    <span class="services__button">
+                        See more <i class='bx bx-right-arrow-alt services__icon' ></i>
+                    </span> 
+                    
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close' ></i>
+
+                            <h3 class="services__modal-title">UI/UX Developer</h3>
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon' ></i>
+                                    <p class="service__modal-info">
+                                        Visual appealing design
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon' ></i>
+                                    <p class="service__modal-info">
+                                        User-friendly design 
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon' ></i>
+                                    <p class="service__modal-info">
+                                        Brand strengthening digital interfaces
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon' ></i>
+                                    <p class="service__modal-info">
+                                        Building interactive experiences with the end-user in mind
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon' ></i>
+                                    <p class="service__modal-info">
+                                        Website that are useful, easy to use, and delightful to interact with
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <h3 class="services__title">Webflow <br> Developer</h3>
+
+                    <span class="services__button">
+                        See more <i class='bx bx-right-arrow-alt services__icon' ></i>
+                    </span> 
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close' ></i>
+
+                            <h3 class="services__modal-title">Webflow Developer</h3>
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon' ></i>
+                                    <p class="service__modal-info">
+                                        Bring your website from concept to live
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon' ></i>
+                                    <p class="service__modal-info">
+                                        Developing pixel perfect websites
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon' ></i>
+                                    <p class="service__modal-info">
+                                        Database & Website all in one
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon' ></i>
+                                    <p class="service__modal-info">
+                                        Create & Edit content in minutes
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon' ></i>
+                                    <p class="service__modal-info">
+                                        Fast, Reliable, & Hassle Free Hosting 
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Projects</h2>
+
+            <div class="swiper projects__container container grid">
+                <div class="swiper-wrapper">
+                    <div class="projects__card swiper-slide">
+                        <img class="projects__img" src="./assets/img/portfolio-1.png" alt="minee timer landing page">
+
+                        <div class="projects__content">
+                            <h3 class="projects__title">Product Landing Page</h3>
+                            <ul class="projects__toollist">
+                                <li class="projects__tool">
+                                    HTML
+                                </li>
+                                <li class="projects__tool">
+                                    CSS
+                                </li>
+                                <li class="projects__tool">
+                                    JavaScript
+                                </li>
+                                <li class="projects__tool">
+                                    Design
+                                </li>
+                            </ul>
+                            <a class="projects__button" target="_blank" href="https://codepen.io/adelinejune/full/BaddRqq">
+                                Visit Website <i class='bx bx-right-arrow-alt projects__icon' ></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projects__card swiper-slide">
+                        <img class="projects__img" src="./assets/img/portfolio-2.png" alt="splitter tip calculator">
+
+                        <div class="projects__content">
+                            <h3 class="projects__title">Splitter Tip Calculator</h3>
+                            <ul class="projects__toollist">
+                                <li class="projects__tool">
+                                    HTML
+                                </li>
+                                <li class="projects__tool">
+                                    CSS
+                                </li>
+                                <li class="projects__tool">
+                                    JavaScript
+                                </li>
+                            </ul>
+                            <a class="projects__button" target="_blank" href="https://adelinejune.github.io/tip-calculator/">
+                                Visit Website <i class='bx bx-right-arrow-alt projects__icon' ></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projects__card swiper-slide">
+                        <img class="projects__img" src="./assets/img/portfolio-3.png" alt="JavaScript Technical Documentation">
+
+                        <div class="projects__content">
+                            <h3 class="projects__title">Technical Documentation</h3>
+                            <ul class="projects__toollist">
+                                <li class="projects__tool">
+                                    HTML
+                                </li>
+                                <li class="projects__tool">
+                                    CSS
+                                </li>
+                                <li class="projects__tool">
+                                    JavaScript
+                                </li>
+                                <li class="projects__tool">
+                                    Design
+                                </li>
+                            </ul>
+                            <a class="projects__button" target="_blank" href="https://codepen.io/adelinejune/full/RwZLgzd">
+                                Visit Website <i class='bx bx-right-arrow-alt projects__icon' ></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projects__card swiper-slide">
+                        <img class="projects__img" src="./assets/img/portfolio-4.png" alt="Elon Musk Tribute Page">
+
+                        <div class="projects__content">
+                            <h3 class="projects__title">Tribute Page</h3>
+                            <ul class="projects__toollist">
+                                <li class="projects__tool">
+                                    HTML
+                                </li>
+                                <li class="projects__tool">
+                                    CSS
+                                </li>
+                                <li class="projects__tool">
+                                    Design
+                                </li>
+                            </ul>
+                            <a class="projects__button" target="_blank" href="https://codepen.io/adelinejune/full/abypjpM">
+                                Visit Website <i class='bx bx-right-arrow-alt projects__icon' ></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projects__card swiper-slide">
+                        <img class="projects__img" src="./assets/img/portfolio-5.png" alt="Chat App Website">
+
+                        <div class="projects__content">
+                            <h3 class="projects__title">Chat App website</h3>
+                            <ul class="projects__toollist">
+                                <li class="projects__tool">
+                                    Webflow
+                                </li>
+                            </ul>
+                            <a class="projects__button" target="_blank" href="https://u-k-i-y-os-sublime-site.webflow.io/">
+                                Visit Website <i class='bx bx-right-arrow-alt projects__icon' ></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projects__card swiper-slide">
+                        <img class="projects__img" src="./assets/img/portfolio-6.png" alt="Team App Website">
+
+                        <div class="projects__content">
+                            <h3 class="projects__title">Team App website</h3>
+                            <ul class="projects__toollist">
+                                <li class="projects__tool">
+                                    Webflow
+                                </li>
+                            </ul>
+                            <a class="projects__button" target="_blank" href="https://team-app-156994.webflow.io/">
+                                Visit Website <i class='bx bx-right-arrow-alt projects__icon' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <div class="contact__header">
+                    <h2 class="contact__title">Get In Touch</h2>
+                    <h3 class="contact__subtitle">Let’s make <span class="italic">something</span> great!</h3>
+                </div>
+                <div class="contact__form"> 
+                    <form  id="my-form" action="https://formspree.io/f/mayvbyqy"
+                    method="POST">
+                        <div class="contact__form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="contact__form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="contact__form-group">
+                            <label for="message">Message</label>
+                            <textarea type="text" name="message" id="message" rows="5" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="button">send message</button>
+                    </form>
+                </div>
+                <div id="status"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <img src="./assets/img/footer-logo.svg" alt="" class="footer__logo">
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li>
+                    <a href="#services" class="footer__link">Services</a>
+                </li>
+                <li>
+                    <a href="#projects" class="footer__link">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact" class="footer__link">Get In Touch</a>
+                </li>
+            </ul>
+
+
+            <ul class="footer__social">
+                <li>
+                    <a href="https://www.linkedin.com/in/adeline-june-b8a9501b6"><i class='bx bxl-linkedin-square footer__icon' ></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/adelinejune"><i class='bx bxl-github footer__icon' ></i></a>
+                </li>
+                <li><a href="https://twitter.com/adelineejune"><i class='bx bxl-twitter footer__icon' ></i></a></li>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; Adeline June. All rights reserved.
+            </span>
+        </div>
+    </footer>
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- ScrollReveal JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- SMTP JS -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <!-- Main JS -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

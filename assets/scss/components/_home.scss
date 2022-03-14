@@ -1,0 +1,46 @@
+.home {
+  &__container {
+    grid-template-columns: 1fr;
+    grid-template-areas: "a" "b";
+  }
+
+  &__img {
+    grid-area: b;
+    width: 70%;
+    margin: 2rem auto 0;
+  }
+
+  &__title {
+    font-family: "El Messiri";
+    font-size: $biggest-font-size + 0.5rem;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    letter-spacing: 0.04em;
+  }
+
+  &__scroll {
+    text-align: center;
+    @include flexCenter;
+    column-gap: 0.8rem;
+    margin-top: 1rem;
+
+    p {
+      font-weight: $font-medium;
+      font-size: $normal-font-size;
+      color: $primary-color;
+    }
+
+    &-icon {
+      font-size: 1.2rem;
+      color: $text-color;
+    }
+
+    transition: 0.4s;
+  }
+
+  &__scroll:hover {
+    cursor: pointer;
+    transform: translateY(-8px);
+  }
+}
