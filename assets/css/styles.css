@@ -271,14 +271,12 @@ button {
   cursor: not-allowed;
 }
 
-.disabled a {
-  pointer-events: none;
-}
 .services__container {
   display: grid;
   grid-template-areas: "a b" "c .";
   grid-template-columns: "1fr 1fr" "1fr 1fr";
   grid-gap: 1rem;
+  transform: none !important;
 }
 .services__card {
   background-color: #151c28;

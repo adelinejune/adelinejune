@@ -4,6 +4,7 @@
     grid-template-areas: "a b" "c .";
     grid-template-columns: "1fr 1fr" "1fr 1fr";
     grid-gap: 1rem;
+    transform: none !important;
   }
 
   &__card {
