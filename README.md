@@ -1,6 +1,6 @@
 # Adeline June's Website Repo
 
-Live Site URL: [https://adelinejune.github.io/blogr/](https://adelinejune.github.io/blogr/)
+Live Site URL: [https://adelinejune.github.io/adelinejune/](https://adelinejune.github.io/adelinejune/)
 
 ## Website Preview
 
@@ -9,4 +9,4 @@ Live Site URL: [https://adelinejune.github.io/blogr/](https://adelinejune.github
 ### Author
 
 - LinkedIN - [Adeline June](https://www.linkedin.com/in/adeline-june-b8a9501b6)
-- Website - [adeline june](https://adelinejune.github.io/blogr/)
+- Website - [adeline june](https://adelinejune.github.io/adelinejune/)
